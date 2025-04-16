@@ -11,7 +11,14 @@
     "jest-when"
   ],
   "author": "cajax",
-  "git-repository": "https://github.com/cajax/eslint-plugin-jest-when",
+  "bugs": {
+        "url": "https://github.com/cajax/eslint-plugin-jest-when/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cajax/eslint-plugin-jest-when.git"
+    },
+  "homepage": "https://github.com/cajax/eslint-plugin-jest-when",
   "license": "MIT",
   "peerDependencies": {
     "eslint": "^8.0.0"
