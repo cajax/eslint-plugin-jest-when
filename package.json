@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-jest-when",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ESLint plugin for enforcing best practices with jest-when. Made with Claude AI for personal use.",
   "main": "index.js",
   "keywords": [
@@ -21,6 +21,6 @@
   "homepage": "https://github.com/cajax/eslint-plugin-jest-when",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^8.0.0 || ^9.0.0"
   }
 }
