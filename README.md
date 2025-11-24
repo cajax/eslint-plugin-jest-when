@@ -15,17 +15,17 @@ npm install eslint jest-when --save-dev
 Next, install the plugin:
 
 ```bash
-npm install your-plugin-name --save-dev # Replace with the actual package name
+npm install eslint-plugin-jest-when --save-dev # Replace with the actual package name
 ```
 
 ## Usage
 
-Add `your-plugin-name` to the plugins section of your `.eslintrc` configuration file. You can then configure the rules you want to use under the `rules` section.
+Add `eslint-plugin-jest-when` to the plugins section of your `.eslintrc` configuration file. You can then configure the rules you want to use under the `rules` section.
 
 ```json
 {
     "plugins": [
-        "your-plugin-name" # Replace with the actual package name
+        "eslint-plugin-jest-when"
     ],
     "rules": {
         "your-plugin-name/no-reset-when-mocks-at-end": "warn",
